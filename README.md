@@ -147,11 +147,11 @@ A skill detecta a stack em tempo de execução inspecionando extensões de arqui
 
 ### Resumo por projeto
 
-| Projeto | Stack | Anti-patterns encontrados | Corrigidos | Pendentes | Motivo das pendências |
-|---|---|---|---|---|---|
-| code-smells-project | Python/Flask | 19 | 17 | 2 (LOW) | Magic numbers e inconsistência de formatação — impacto nulo em produção |
-| ecommerce-api-legacy | Node.js/Express | 14 | 10 | 4 | 2 CRITICAL e 2 MEDIUM requerem sistema de auth/gateway real |
-| task-manager-api | Python/Flask | 26 | 21 | 5 | JWT real, auth middleware, paginação, marshmallow, notificações persistentes |
+| Projeto | Stack | Anti-patterns encontrados |
+|---|---|---|
+| code-smells-project | Python/Flask | 19 |
+| ecommerce-api-legacy | Node.js/Express | 14 |
+| task-manager-api | Python/Flask | 26 |
 
 ### Comparação antes/depois — estrutura de arquivos
 
